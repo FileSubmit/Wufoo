@@ -1,0 +1,23 @@
+<script type="text/javascript">
+var w84kfk41gp1nca;(function(d, t) { var sURL = window.document.URL.toString(); 
+var val_lawyer = "Empty"; 
+var val_email = "Empty"; 
+if (sURL.indexOf("?") > 0)
+  {
+    var arrParams = sURL.split("?");
+    var arrURLParams = arrParams[1].split("/");   
+    var i = 0;
+    for (i=0;i<arrURLParams.length;i++) { 
+var sParam = arrURLParams[i].split("="); 
+If (sParam[0] == "lawyer") 
+val_lawyer = unescape(sParam[1]); 
+if (sParam[0] == "email") 
+val_email = unescape(sParam[1]);
+ } } 
+
+var s = d.createElement(t), options = { 'userName':'lexpert', 'formHash':'w84kfk41gp1nca', 'autoResize':true, 'height':'495', 'async':true, 'host':'wufoo.com', 'header':'hide', 'ssl':true,
+
+ 'defaultValues':'Field14=' + val_lawyer + '&Field13=' + val_email };
+
+ s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { w84kfk41gp1nca = new WufooForm();w84kfk41gp1nca.initialize(options);w84kfk41gp1nca.display(); } catch (e) {}}; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script');
+</script>
